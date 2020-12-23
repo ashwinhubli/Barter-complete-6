@@ -6,7 +6,7 @@ import HomeScreen from '../screens/Homescreen'
 
 
 export const AppTabNavigator = createBottomTabNavigator({
-  DonateItems : {
+  AddItems : {
     screen: HomeScreen,
     navigationOptions :{
       tabBarIcon : <Image source={require("../assets/homescreen.png")} style={{width:20, height:20}}/>,
